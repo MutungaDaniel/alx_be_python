@@ -1,5 +1,5 @@
 #We coming back sahii sahii
-size = input("Enter the size of the pattern: ")
+size = int(input("Enter the size of the pattern: "))
 
 row_count = 0
 while row_count < size:
