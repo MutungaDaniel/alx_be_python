@@ -1,13 +1,15 @@
-def perform_operation(num1: float, num2: float, operation: str):
+# Defining the function
+def perform_operation(num1, num2, operation):
+    # Writing the statements
     if operation == 'add':
-        return num1 + num2
+        return num1 + num2    #This adds two numbers
     elif operation == 'subtract':
-        return num1 - num2
+        return num1 - num2    #This subtracts two numbers
     elif operation == 'multiply':
-        return num1 * num2
+        return num1 * num2    #This multiplies two numbers
     elif operation == 'divide':
         if num2 == 0:
-            return "Error: Division by zero"
-        return num1 / num2
+            return "Sorry, you cannot divide a number by zero."
+        return num1 / num2    #This divides two numbers
     else:
-        return "Error: Invalid operation"
+        return "The operation is not Supported! Try Again."
