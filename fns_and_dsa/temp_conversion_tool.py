@@ -16,7 +16,7 @@ def get_temperature_input():
         temperature = float(input("Enter the temperature to convert: "))
         return temperature
     except ValueError:
-        raise ValueError("Invalid input. Numerical Values only!")
+        raise ValueError("Invalid temperature. Please enter a numeric value.")
 
 
 def main():
